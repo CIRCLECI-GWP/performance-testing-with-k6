@@ -5,6 +5,4 @@ workflows:
   load_test:
     jobs:
       - k6io/test:
-          cloud: true
           script: create-todo-http-request.js
-          token: ${K6_CLOUD_TOKEN}

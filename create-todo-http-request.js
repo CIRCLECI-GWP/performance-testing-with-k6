@@ -11,13 +11,6 @@ export let options = {
     // { duration: "0.5m", target: 4 },
     // { duration: "0.5m", target: 0 }, // ramp-down to 0 users
   ],
-  ext: {
-    loadimpact: {
-      projectID: 3689487,
-      // Test runs with the same name groups test runs together
-      name: "CircleCI Todo Load Test",
-    },
-  },
 };
 
 export default function () {
